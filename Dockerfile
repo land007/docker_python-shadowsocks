@@ -11,3 +11,4 @@ RUN echo "land007/python-shadowsocks" > /.image_name
 
 
 #docker stop python-shadowsocks ; docker rm python-shadowsocks ; docker run -it --privileged --name python-shadowsocks land007/python-shadowsocks:latest
+#> docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t land007/python-shadowsocks --push .
